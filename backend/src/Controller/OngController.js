@@ -9,7 +9,7 @@ module.exports = {
   },
 
   async create(req, res){
-    const {name, email, whatsapp, city, UF} = req.body;
+    const {name, email, whatsapp, city, Uf} = req.body;
 
     const id = crypto.randomBytes(4).toString('HEX'); 
 
@@ -19,9 +19,9 @@ module.exports = {
       email,
       whatsapp,
       city,
-      UF,
+      Uf,
     })
-
+  
     return res.json({ id });
   }
 };

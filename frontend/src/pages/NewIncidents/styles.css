@@ -1,0 +1,50 @@
+.newincident-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newincident-container .content form textarea {
+  width: 100%;
+  min-height: 180px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 16px 24px;
+  line-height: 24px;
+  margin-top: 8px;
+  resize: vertical;
+}
+
+.button-container {
+  display: flex;
+  align-items: center
+}
+
+.button-container .cancel-button {
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-right: 16px;
+  max-width: 180px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: border-color 0.2s;
+}
+
+.button-container .cancel-button:hover {
+  border-color: #999;
+}
